@@ -34,6 +34,7 @@ Definição formal de um Autômato de Pilha (AP) composto por:
 - Estado inicial
 - Símbolo de fundo da pilha
 
+
 Definição dos estados
 
 Foram criados estados representando o elevador parado em cada andar:
@@ -43,6 +44,7 @@ Foram criados estados representando o elevador parado em cada andar:
 - q3a → 3º andar
 - 
 Cada estado representa o elevador com as portas abertas aguardando chamadas.
+
 
 Memória com pilha
 
@@ -54,12 +56,14 @@ A lógica implementada garante:
 - Memória temporária de destinos
 - Processamento linear de movimentação
 
+
 Movimentação linear
 
 O elevador obrigatoriamente percorre os andares intermediários antes de chegar ao destino final.
 Exemplo:
 Se o elevador estiver no térreo e o destino for o 3º andar:
 Ele passará pelo 1º e 2º andar antes de chegar ao 3º.
+
 
 Interface gráfica
 
@@ -71,10 +75,12 @@ Desenvolvimento de elementos visuais como:
 - Centralização automática da janela
 - Simulação visual da cabine do elevador
 
+
 Passageiro especial 🐱
 
 Para tornar a experiência mais visual e interativa, foi implementado um passageiro fixo representado por um gato.
 A imagem acompanha dinamicamente a cabine do elevador durante toda a movimentação.
+
 
 HUB Central
 
