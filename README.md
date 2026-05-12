@@ -15,11 +15,11 @@ Projeto desenvolvido com o objetivo de simular o funcionamento lógico de um ele
 
 ## 💻 Tecnologias utilizadas no projeto
 
--Python
--Tkinter
--Conceitos de Autômato de Pilha (AP)
--Interface gráfica
--Lógica de programação estruturada
+- Python
+- Tkinter
+- Conceitos de Autômato de Pilha (AP)
+- Interface gráfica
+- Lógica de programação estruturada
 
 
 ## ✨ Como foi feito ?
