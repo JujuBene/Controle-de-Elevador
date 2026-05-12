@@ -24,7 +24,7 @@ Projeto desenvolvido com o objetivo de simular o funcionamento lógico de um ele
 
 ## ✨ Como foi feito ?
 
-## Modelagem do sistema
+<b>Modelagem do sistema</b>
 
 Definição formal de um Autômato de Pilha (AP) composto por:
 - Estados
