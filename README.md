@@ -113,9 +113,9 @@ As setas e indicadores mostrarão a direção atual do elevador.
 Se inválido → operação finalizada com erro
 - 🤖 6. Chegada ao destino
 Ao alcançar o andar solicitado:
-- O elevador para
-- As portas abrem
-- O estado correspondente é atualizado
+    - O elevador para
+    - As portas abrem
+    - O estado correspondente é atualizado
 
 
 ## 📌 Considerações finais
