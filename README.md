@@ -35,6 +35,7 @@ Definição formal de um Autômato de Pilha (AP) composto por:
 - Símbolo de fundo da pilha
 
 
+
 <b>Definição dos estados</b>
 
 Foram criados estados representando o elevador parado em cada andar:
@@ -44,6 +45,7 @@ Foram criados estados representando o elevador parado em cada andar:
 - q3a → 3º andar
 
 Cada estado representa o elevador com as portas abertas aguardando chamadas.
+
 
 
 <b>Memória com pilha</b>
@@ -57,12 +59,14 @@ A lógica implementada garante:
 - Processamento linear de movimentação
 
 
+
 <b>Movimentação linear</b>
 
 O elevador obrigatoriamente percorre os andares intermediários antes de chegar ao destino final.
 Exemplo:
 Se o elevador estiver no térreo e o destino for o 3º andar:
 Ele passará pelo 1º e 2º andar antes de chegar ao 3º.
+
 
 
 <b>Interface gráfica</b>
@@ -76,10 +80,12 @@ Desenvolvimento de elementos visuais como:
 - Simulação visual da cabine do elevador
 
 
+
 <b>Passageiro especial</b>
 
 Para tornar a experiência mais visual e interativa, foi implementado um passageiro fixo representado por um gato.
 A imagem acompanha dinamicamente a cabine do elevador durante toda a movimentação.
+
 
 
 <b>HUB Central</b>
@@ -89,6 +95,7 @@ O HUB permite acessar:
 - Case 1 → Vending Machine
 - Case 2 → Controle de Elevador
 As janelas funcionam de maneira independente utilizando o conceito de Toplevel do Tkinter.
+
 
 
 ## 🛠️ Instruções de execução
