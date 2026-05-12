@@ -25,6 +25,7 @@ Projeto desenvolvido com o objetivo de simular o funcionamento lógico de um ele
 ## ✨ Como foi feito ?
 
 Modelagem do sistema
+
 Definição formal de um Autômato de Pilha (AP) composto por:
 - Estados
 - Alfabeto de entrada
@@ -34,15 +35,19 @@ Definição formal de um Autômato de Pilha (AP) composto por:
 - Símbolo de fundo da pilha
 
 Definição dos estados
+
 Foram criados estados representando o elevador parado em cada andar:
 - q0a → Térreo
 - q1a → 1º andar
 - q2a → 2º andar
 - q3a → 3º andar
+- 
 Cada estado representa o elevador com as portas abertas aguardando chamadas.
 
 Memória com pilha
+
 Diferente de um autômato finito tradicional, o sistema utiliza uma pilha para armazenar os destinos solicitados pelo usuário.
+
 A lógica implementada garante:
 - Controle de chamadas
 - Sequenciamento correto
@@ -50,12 +55,14 @@ A lógica implementada garante:
 - Processamento linear de movimentação
 
 Movimentação linear
+
 O elevador obrigatoriamente percorre os andares intermediários antes de chegar ao destino final.
 Exemplo:
 Se o elevador estiver no térreo e o destino for o 3º andar:
 Ele passará pelo 1º e 2º andar antes de chegar ao 3º.
 
 Interface gráfica
+
 Desenvolvimento de elementos visuais como:
 - Painel industrial moderno
 - Indicadores de subida e descida
@@ -65,10 +72,12 @@ Desenvolvimento de elementos visuais como:
 - Simulação visual da cabine do elevador
 
 Passageiro especial 🐱
+
 Para tornar a experiência mais visual e interativa, foi implementado um passageiro fixo representado por um gato.
 A imagem acompanha dinamicamente a cabine do elevador durante toda a movimentação.
 
 HUB Central
+
 O projeto também conta com um HUB Central, responsável por integrar os sistemas desenvolvidos durante o semestre.
 O HUB permite acessar:
 - Case 1 → Vending Machine
